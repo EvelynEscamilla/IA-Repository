@@ -1,7 +1,6 @@
 import os
 import cv2
 import numpy as np
-import yt_dlp as ytdlp  # type: ignore
 
 def ajustar_brillo_contraste(frame, alpha=1.0, beta=0):
     return cv2.convertScaleAbs(frame, alpha=alpha, beta=beta)
@@ -48,68 +47,33 @@ def generar_versiones(output_folder, base_name, frame):
         img_transformada = transformacion(frame)
         cv2.imwrite(f"{output_folder}/{base_name}_{nombre}.jpg", img_transformada)
 
-def generar_dataset(video_url, output_folder, resolution=(28, 21), start_time=0, end_time=None):
+def generar_dataset_imagenes(input_folder, output_folder, resolution=(28, 21)):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    ydl_opts = {
-        'format': 'best',
-        'outtmpl': 'temp_video.%(ext)s',
-        'noplaylist': True,
-        'quiet': True,
-    }
+    for img_name in os.listdir(input_folder):
+        img_path = os.path.join(input_folder, img_name)
+        if not os.path.isfile(img_path):
+            continue
 
-    with ytdlp.YoutubeDL(ydl_opts) as ydl:
-        info_dict = ydl.extract_info(video_url, download=False)
-        video_url = info_dict.get('url', None)
-        print(f"Usando URL: {video_url}")
+        frame = cv2.imread(img_path)
+        if frame is None:
+            print(f"No se pudo leer la imagen: {img_name}")
+            continue
 
-    cap = cv2.VideoCapture(video_url)
-    
-    fps = int(cap.get(cv2.CAP_PROP_FPS))
-    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    duration = total_frames / fps
-    print(f"Duración del video: {duration:.2f} segundos")
-    
-    start_frame = int(start_time * fps)
-    end_frame = int(end_time * fps) if end_time is not None else total_frames
+        frame_resized = cv2.resize(frame, resolution)
 
-    cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
-    frame_count = start_frame
-    img_count = 0
+        base_name, _ = os.path.splitext(img_name)
+        cv2.imwrite(f"{output_folder}/{base_name}_original.jpg", frame_resized)
 
-    cv2.namedWindow("Procesamiento", cv2.WINDOW_NORMAL)
-    cv2.resizeWindow("Procesamiento", 600, 400)
+        generar_versiones(output_folder, base_name, frame_resized)
+        print(f"Procesada la imagen: {img_name}")
 
-    while frame_count < end_frame:
-        ret, frame = cap.read()
-        if not ret:
-            break
-
-        cv2.imshow("Procesamiento", frame)
-
-        if cv2.waitKey(1) & 0xFF == ord('x'):
-            print("Ejecución detenida")
-            break
-
-        img_resized = cv2.resize(frame, resolution)
-
-        base_name = f"frame_{img_count}"
-        cv2.imwrite(f"{output_folder}/{base_name}.jpg", img_resized)
-
-        generar_versiones(output_folder, base_name, img_resized)
-
-        img_count += 1
-        frame_count += 1
-        print(f"Procesando frame {frame_count}/{total_frames}...")
-
-    cap.release()
-    cv2.destroyAllWindows()
     print(f"Dataset generado en {output_folder}")
 
-
-video_url = "https://youtu.be/pemqhq4qwDw?si=5k2_MW4CvE3bDWr0" 
+# Configuración de carpetas
+input_folder = "C:/Users/ShiEu/Documents/9 Semestre/imagenes"
 output_folder = "C:/Users/ShiEu/Documents/dataset_coches"
-start_time = 6
-end_time = 12
-generar_dataset(video_url, output_folder, start_time=start_time, end_time=end_time)
+
+# Generar dataset
+generar_dataset_imagenes(input_folder, output_folder)

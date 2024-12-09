@@ -1,7 +1,6 @@
 import os
 import cv2
 import numpy as np
-import yt_dlp as ytdlp  # type: ignore
 
 def ajustar_brillo_contraste(frame, alpha=1.0, beta=0):
     return cv2.convertScaleAbs(frame, alpha=alpha, beta=beta)
@@ -48,40 +47,28 @@ def generar_versiones(output_folder, base_name, frame):
         img_transformada = transformacion(frame)
         cv2.imwrite(f"{output_folder}/{base_name}_{nombre}.jpg", img_transformada)
 
-def generar_dataset(video_url, output_folder, resolution=(28, 21), start_time=0, end_time=None):
+def generar_dataset(video_path, output_folder, resolution=(28, 21)):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    ydl_opts = {
-        'format': 'best',
-        'outtmpl': 'temp_video.%(ext)s',
-        'noplaylist': True,
-        'quiet': True,
-    }
+    cap = cv2.VideoCapture(video_path)
 
-    with ytdlp.YoutubeDL(ydl_opts) as ydl:
-        info_dict = ydl.extract_info(video_url, download=False)
-        video_url = info_dict.get('url', None)
-        print(f"Usando URL: {video_url}")
+    if not cap.isOpened():
+        print("Error al abrir el video.")
+        return
 
-    cap = cv2.VideoCapture(video_url)
-    
     fps = int(cap.get(cv2.CAP_PROP_FPS))
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     duration = total_frames / fps
     print(f"Duración del video: {duration:.2f} segundos")
-    
-    start_frame = int(start_time * fps)
-    end_frame = int(end_time * fps) if end_time is not None else total_frames
 
-    cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
-    frame_count = start_frame
+    frame_count = 0
     img_count = 0
 
     cv2.namedWindow("Procesamiento", cv2.WINDOW_NORMAL)
     cv2.resizeWindow("Procesamiento", 600, 400)
 
-    while frame_count < end_frame:
+    while True:
         ret, frame = cap.read()
         if not ret:
             break
@@ -107,9 +94,8 @@ def generar_dataset(video_url, output_folder, resolution=(28, 21), start_time=0,
     cv2.destroyAllWindows()
     print(f"Dataset generado en {output_folder}")
 
-
-video_url = "https://youtu.be/pemqhq4qwDw?si=5k2_MW4CvE3bDWr0" 
+# Cambia la URL por la ruta de tu video local
+video_path = "C:/Users/ShiEu/Downloads/MC4 ‐ Hecho con Clipchamp.MP4"  # Ruta del video en tu computadora
 output_folder = "C:/Users/ShiEu/Documents/dataset_coches"
-start_time = 6
-end_time = 12
-generar_dataset(video_url, output_folder, start_time=start_time, end_time=end_time)
+
+generar_dataset(video_path, output_folder)
