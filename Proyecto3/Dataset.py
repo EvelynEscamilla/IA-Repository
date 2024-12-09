@@ -1,14 +1,10 @@
 import os
 import cv2
 import numpy as np
-import yt_dlp as ytdlp  
+import yt_dlp as ytdlp  # type: ignore
 
 def ajustar_brillo_contraste(frame, alpha=1.0, beta=0):
     return cv2.convertScaleAbs(frame, alpha=alpha, beta=beta)
-
-def agregar_ruido(frame, intensidad=0.05):
-    ruido = np.random.normal(0, 255 * intensidad, frame.shape).astype(np.uint8)
-    return cv2.add(frame, ruido)
 
 def recortar_aleatoriamente(frame, porcentaje=0.1):
     h, w = frame.shape[:2]
@@ -38,10 +34,9 @@ def aplicar_filtros_basicos(frame, filtro):
 
 def generar_versiones(output_folder, base_name, frame):
     transformaciones = {
-        "rotacion_volteo": lambda img: cv2.flip(cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE), 1),
+        "rotacion_volteo": lambda img: cv2.flip(cv2.rotate(img, cv2.ROTATE_180), 1),
         "brillo_contraste": lambda img: ajustar_brillo_contraste(img, alpha=1.5, beta=30),
         "desplazamiento_zoom": lambda img: aplicar_zoom(img, factor=1.3),
-        "ruido": lambda img: agregar_ruido(img, intensidad=0.1),
         "recorte": lambda img: recortar_aleatoriamente(img, porcentaje=0.2),
         "eliminacion_ruido": lambda img: eliminar_ruido(img),
         "filtro_bn": lambda img: aplicar_filtros_basicos(img, "blanco_negro"),
@@ -53,7 +48,7 @@ def generar_versiones(output_folder, base_name, frame):
         img_transformada = transformacion(frame)
         cv2.imwrite(f"{output_folder}/{base_name}_{nombre}.jpg", img_transformada)
 
-def generar_dataset(video_url, output_folder, resolution=(28, 21)):
+def generar_dataset(video_url, output_folder, resolution=(28, 21), start_time=0, end_time=None):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
@@ -70,13 +65,23 @@ def generar_dataset(video_url, output_folder, resolution=(28, 21)):
         print(f"Usando URL: {video_url}")
 
     cap = cv2.VideoCapture(video_url)
-    frame_count = 0
+    
+    fps = int(cap.get(cv2.CAP_PROP_FPS))
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    duration = total_frames / fps
+    print(f"Duración del video: {duration:.2f} segundos")
+    
+    start_frame = int(start_time * fps)
+    end_frame = int(end_time * fps) if end_time is not None else total_frames
+
+    cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
+    frame_count = start_frame
     img_count = 0
 
     cv2.namedWindow("Procesamiento", cv2.WINDOW_NORMAL)
     cv2.resizeWindow("Procesamiento", 600, 400)
 
-    while True:
+    while frame_count < end_frame:
         ret, frame = cap.read()
         if not ret:
             break
@@ -87,8 +92,6 @@ def generar_dataset(video_url, output_folder, resolution=(28, 21)):
             print("Ejecución detenida")
             break
 
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-
         img_resized = cv2.resize(frame, resolution)
 
         base_name = f"frame_{img_count}"
@@ -98,12 +101,15 @@ def generar_dataset(video_url, output_folder, resolution=(28, 21)):
 
         img_count += 1
         frame_count += 1
-        print(f"Procesando frame {frame_count}...")
+        print(f"Procesando frame {frame_count}/{total_frames}...")
 
     cap.release()
     cv2.destroyAllWindows()
     print(f"Dataset generado en {output_folder}")
 
-video_url = "https://youtu.be/IGLBWUYBxp8?si=fzLnMgdCrv1TCHtc"  
+
+video_url = "https://youtu.be/_6IXU9N1SfQ?si=OOfB_aDcCqYRmZeG" 
 output_folder = "C:/Users/ShiEu/Documents/dataset_coches"
-generar_dataset(video_url, output_folder)
+start_time = 105
+end_time = 115
+generar_dataset(video_url, output_folder, start_time=start_time, end_time=end_time)
