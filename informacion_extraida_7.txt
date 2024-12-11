@@ -1,0 +1,777 @@
+Información extraída de la URL: https://prime.tirant.com/mx/actualidad-prime/reforma-judicial/
+
+Texto extraído sin etiquetas HTML:
+Reforma Judicial - Tirant Prime México
+Inicio
+Sobre Tirant Prime
+Soluciones
+Base de datos
+Biblioteca virtual
+Consultoría Jurídica
+Analytics
+Gestión de Despachos
+Sof-IA
+Novedades
+Boletín de novedades
+Actualidad Jurídica
+Dosiers
+Acceso clientes
+Inicio
+Sobre Tirant Prime
+Soluciones
+Base de datos
+Biblioteca virtual
+Consultoría Jurídica
+Analytics
+Gestión de Despachos
+Sof-IA
+Novedades
+Boletín de novedades
+Actualidad Jurídica
+Dosiers
+Acceso clientes
+Acceso clientes
+<
+Reforma Judicial
+El 15 de septiembre de 2024, fue publicado un Decreto en el Diario Oficial de la Federación (DOF) mediante el cual se reforman, adicionan y derogan diversas disposiciones de la Constitución Política de los Estados Unidos Mexicanos en materia de reforma del Poder Judicial. Este decreto, aprobado por el Congreso de la Unión y las […]
+Publicado:
+17 de septiembre de 2024
+El 15 de septiembre de 2024, fue publicado un Decreto en el Diario Oficial de la Federación (DOF) mediante el cual se reforman, adicionan y derogan diversas disposiciones de la Constitución Política de los Estados Unidos Mexicanos en materia de reforma del Poder Judicial. Este decreto, aprobado por el Congreso de la Unión y las legislaturas de los estados y de la Ciudad de México, introduce cambios significativos en 19 artículos clave que regulan el funcionamiento del Poder Judicial. En este informe se da cuenta de los cambios más significativos, como la introducción de la elección popular para ministros de la Suprema Corte, jueces de distrito y magistrados de circuito, así como la creación del Órgano de Administración Judicial, que sustituye al Consejo de la Judicatura Federal. También se incluye un análisis de las modificaciones en la carrera judicial, las nuevas reglas para la reelección de jueces y magistrados, y la prohibición de la readscripción a otros circuitos, entre otros cambios como los asociados a la suspensión en el amparo, acción de inconstitucionalidad y controversia constitucional.
+Un elemento clave de la reforma es la creación del Tribunal de Disciplina Judicial, un órgano con independencia técnica y de gestión, que tendrá a su cargo la supervisión, disciplina y sanción de los funcionarios judiciales. Este tribunal será integrado por cinco magistrados electos por la ciudadanía y tendrá facultades para investigar faltas graves, sancionar a los servidores públicos del Poder Judicial, y evaluar el desempeño de los jueces y magistrados durante su primer año de ejercicio. Las sanciones podrán incluir desde la amonestación hasta la destitución o inhabilitación. Las resoluciones del tribunal serán definitivas e inatacables, y funcionará tanto en Pleno como en comisiones.
+Cada uno de los artículos reformados se presenta en su contexto original, comparando el antes y el después de la reforma, con el fin de proporcionar una visión general de cómo estos cambios modifican el funcionamiento del Poder Judicial. La reforma al Poder Judicial de la Federación está dirigida principalmente a los operadores del sistema judicial, como jueces, magistrados y ministros, así como a los legisladores, autoridades ejecutivas, y la ciudadanía en general, quienes ahora tendrán un papel más directo en la elección de los funcionarios judiciales. Asimismo, los litigantes y usuarios de los medios de control de constitucionalidad, como el amparo y las acciones de inconstitucionalidad, se verán impactados por las modificaciones introducidas, que afectan tanto los procesos de protección de derechos individuales como el funcionamiento de los medios para impugnar normas generales. Los cambios en los criterios para la suspensión de actos en el amparo y las declaratorias de inconstitucionalidad tendrán repercusiones directas en la forma en que estos medios procesales se emplean y en los alcances de las resoluciones que emitan los tribunales.
+Al final del texto, se describe cómo se llevará a cabo la implementación de la reforma conforme a los artículos transitorios, detallando el proceso electoral extraordinario, la transición del Consejo de la Judicatura Federal al Órgano de Administración Judicial, y otros aspectos clave que garantizan la correcta transición y aplicación de los nuevos mecanismos introducidos por la reforma.
+Artículo 17:
+Antes de la reforma, el Artículo 17 de la Constitución Política de los Estados Unidos Mexicanos establecía el derecho fundamental a una impartición de justicia pronta, completa e imparcial, garantizando que cualquier persona pudiera acceder a los tribunales y obtener una resolución de los asuntos que presentara ante el sistema judicial. No obstante, la redacción anterior no fijaba un plazo específico para que los tribunales resolvieran los casos, lo que permitía que los procesos judiciales pudieran extenderse sin un límite temporal claro.
+Con la reforma, se introduce un cambio importante: ahora se establece un plazo máximo de seis meses para la resolución de casos relacionados con cuantías tributarias, es decir, aquellos que versan sobre la determinación de impuestos o contribuciones en disputa entre los contribuyentes y las autoridades fiscales. Este plazo es obligatorio, y en caso de que el órgano jurisdiccional no cumpla con esta obligación, se deberá informar al Tribunal de Disciplina Judicial, que será el encargado de investigar las razones del retraso y, en su caso, sancionar al juez o magistrado responsable.
+Otro cambio importante introducido en la reforma al artículo 17 de la Constitución se refiere a la protección de los jueces y magistrados en casos relacionados con la delincuencia organizada. La reforma establece que el Órgano de Administración Judicial tendrá la facultad de adoptar las medidas necesarias para preservar la seguridad y resguardar la identidad de las personas juzgadoras que estén involucradas en estos procesos judiciales. Estas medidas se implementarán conforme al procedimiento establecido por la ley, lo que busca proteger a los jueces y magistrados de posibles represalias y garantizar su independencia en el ejercicio de sus funciones en casos de alto riesgo.
+Artículo 94 :
+Antes de la reforma, el Artículo 94 de la Constitución Política de los Estados Unidos Mexicanos establecía que la Suprema Corte de Justicia de la Nación (SCJN) estaría integrada por 11 ministros y organizada en dos Salas, cada una con competencias específicas. Las Salas se especializaban en temas particulares: la Primera Sala se encargaba de asuntos civiles y penales, mientras que la Segunda Sala se ocupaba de los temas laborales y administrativos, mientras que el Pleno, compuesto por todos los ministros.
+Con la reforma aprobada, se reduce el número de ministros de la SCJN de 11 a 9, y las Salas son eliminadas, de modo que la Corte ahora funcionará exclusivamente en Pleno, es decir, con la participación de todos sus integrantes para la resolución de todos los asuntos. Con la reforma al artículo 94, además de la reducción en el número de ministros de 11 a 9 y la eliminación de las Salas, se introduce una disposición que establece que ningún funcionario del Poder Judicial podrá percibir un salario mayor al del presidente de la República.
+Artículo 95:
+El Artículo 95 de la Constitución Política de los Estados Unidos Mexicanos establece los requisitos que una persona debe cumplir para ser designada ministro de la Suprema Corte de Justicia de la Nación (SCJN). Antes de la reforma, estos requisitos incluían: ser ciudadano mexicano por nacimiento, tener al menos 35 años de edad, poseer título de licenciado en derecho con al menos 10 años de antigüedad, gozar de buena reputación, no haber sido condenado por delito que ameritara pena corporal, y no haber desempeñado el cargo de secretario de Estado, fiscal general de la República, senador, diputado federal, gobernador o jefe de gobierno de la Ciudad de México en el año previo a la designación.
+Con la reforma al artículo 95, los requisitos se mantienen prácticamente iguales, pero se introduce una nueva prohibición: ya no podrán ser propuestos como ministros quienes hayan desempeñado el cargo de magistrado del Tribunal Electoral. Otra modificación relevante es la reducción del periodo para el cual se designa a los ministros de la Suprema Corte. Antes de la reforma, el cargo de ministro era ejercido por un período de 15 años, tras la reforma, el período se reduce a 12 años.
+Artículo 96:
+Se introduce la elección popular para elegir a ministros de la Suprema Corte, jueces de distrito y magistrados de circuito. Este proceso será organizado por el Instituto Nacional de Elecciones y Consultas (INEC) y se realizará junto con las elecciones generales. La reforma al Poder Judicial de la Federación introduce varios cambios significativos en la forma en que se designan los ministros de la Suprema Corte, magistrados de circuito y jueces de distrito. Antes de la reforma, los ministros de la Suprema Corte eran nombrados por el presidente de la República, quien proponía una terna para que el Senado eligiera a uno de los candidatos. Por su parte, los jueces y magistrados eran designados por el Consejo de la Judicatura Federal, mediante un sistema de carrera judicial basado en méritos.
+Con la reforma, se establece un nuevo proceso de elección popular para estos cargos judiciales. Este proceso será gestionado por el Instituto Nacional Electoral (INE). La elección de ministros, magistrados y jueces se llevará a cabo el primer domingo de junio, coincidiendo con las elecciones generales, y permitirá a la ciudadanía participar de manera directa en la selección de estos funcionarios.
+El procedimiento de elección incluye los siguientes pasos:
+Postulación de candidatos: Los tres poderes de la Unión —Ejecutivo, Legislativo y Judicial— podrán proponer candidatos para los cargos vacantes. Cada poder postulará hasta 10 personas para los cargos de ministros y hasta dos personas por circuito en el caso de magistrados y jueces.
+Campaña y acceso a medios: Los candidatos tendrán acceso a tiempos oficiales en radio y televisión, aunque estará prohibido el financiamiento público o privado de sus campañas, así como la contratación de espacios publicitarios en medios. Además, los partidos políticos no podrán realizar actos de proselitismo en favor de los candidatos.
+Elección y reelección: Los ciudadanos votarán en elecciones libres y secretas por los candidatos durante las elecciones generales. Los ministros de la Suprema Corte serán elegidos por un periodo de 12 años, mientras que los magistrados y jueces serán electos por un periodo de 9 años. Al término de estos periodos, los funcionarios podrán postularse para reelección.
+Artículo 97
+: Antes de la reforma, el Artículo 97 de la Constitución Política de los Estados Unidos Mexicanos establecía las facultades de la Suprema Corte de Justicia para investigar violaciones graves a los derechos humanos y determinar los límites y atribuciones de los jueces y magistrados en la administración de justicia. Además, este artículo regulaba aspectos relacionados con la carrera judicial, permitiendo que los jueces y magistrados pudieran ser reasignados a diferentes circuitos judiciales según las necesidades del sistema.
+Con la reforma al Artículo 97, se mantienen los principios de carrera judicial para el personal del Poder Judicial que no esté sujeto a elección popular, como secretarios de acuerdos, actuarios y otros funcionarios. Sin embargo, la readscripción de jueces y magistrados a otro circuito queda prohibida, lo que significa que, una vez electos por los ciudadanos para un circuito judicial específico, deben permanecer en ese circuito durante todo el periodo de su mandato.
+La reforma establece los requisitos para ser electo como Magistrado de Circuito o Juez de Distrito, añadiendo criterios específicos relacionados con la formación académica, la experiencia profesional, y la reputación del candidato. Los nuevos requisitos son:
+Ciudadanía mexicana por nacimiento y en pleno ejercicio de los derechos civiles y políticos.
+Título de licenciatura en derecho, con un promedio mínimo de ocho puntos en general, y un promedio de nueve puntos en las materias relacionadas con el cargo en la licenciatura, especialidad, maestría o doctorado. Para el cargo de Magistrado de Circuito, se requiere además al menos tres años de práctica profesional en un área jurídica afín a la candidatura.
+Buena reputación y no haber sido condenado por delito doloso con sanción privativa de la libertad.
+Haber residido en el país durante el año anterior a la publicación de la convocatoria.
+No haber ocupado cargos como Secretario de Estado, Fiscal General de la República, Senador, Diputado federal, ni titular del poder ejecutivo de alguna entidad federativa en el año previo a la publicación de la convocatoria.
+Artículo 98:
+El Artículo 98 de la Constitución establece las reglas para la ocupación de vacantes y las condiciones para la renuncia y licencia de las Ministras y Ministros de la Suprema Corte de Justicia, así como de otros funcionarios judiciales, como Magistrados del Tribunal de Disciplina Judicial, del Tribunal Electoral, de Circuito, y Jueces de Distrito.
+Ocupación de Vacantes:
+Cuando una vacante ocurra debido a la ausencia de más de un mes sin licencia, defunción, renuncia, o separación definitiva de un Ministro de la Suprema Corte, un Magistrado del Tribunal de Disciplina Judicial, Tribunal Electoral, o Magistrado o Juez de Distrito, la vacante será ocupada por la persona que haya obtenido el segundo lugar en número de votos en la elección para ese cargo. Si la persona que obtuvo el segundo lugar no puede asumir el cargo, seguirá el candidato con la mayor votación en el orden de prelación. El Senado de la República tomará protesta de la persona que sustituya a la funcionaria o funcionario, para que desempeñe el cargo por el tiempo que reste del encargo original.
+Renuncias:
+Las renuncias de Ministros de la Suprema Corte, Magistrados del Tribunal de Disciplina Judicial y del Tribunal Electoral solo procederán por causas graves. Estas renuncias deberán ser aprobadas por una mayoría de los miembros presentes del Senado, o en sus recesos, por la Comisión Permanente.
+Licencias:
+Las licencias para estos funcionarios, cuando no excedan de un mes, podrán ser concedidas por el Pleno de la Suprema Corte para los Ministros, por el Pleno del Tribunal de Disciplina Judicial para sus integrantes, por el Pleno de la Sala Superior del Tribunal Electoral para los magistrados electorales, y por el Órgano de Administración Judicial para Magistrados de Circuito y Jueces de Distrito. Si la licencia excede de un mes, deberá ser justificada y concedida por la mayoría de los miembros presentes del Senado, o por la Comisión Permanente en sus recesos. Ninguna licencia podrá exceder de un año.
+Artículo 99:
+Se mantiene la estructura del Tribunal Electoral del Poder Judicial de la Federación con siete magistrados, quienes serán elegidos mediante el mismo procedimiento que los ministros de la Suprema Corte. También se introduce la creación de un Tribunal de Disciplina Judicial, encargado de supervisar y sancionar a los miembros del Poder Judicial.
+Integración de la Sala Superior: Se especifica que la Sala Superior del Tribunal Electoral estará integrada por siete magistradas y magistrados electorales. La presidencia del Tribunal se renovará cada dos años de manera rotatoria, en función del número de votos obtenidos por las candidaturas.
+Impugnaciones: Se amplía el ámbito de las impugnaciones que pueden ser resueltas por el Tribunal Electoral, incluyendo las elecciones de diputadas y diputados, senadoras y senadores, ministras y ministros de la Suprema Corte de Justicia de la Nación, magistradas y magistrados del Tribunal de Disciplina Judicial, y jueces de distrito. Además, si una sala del Tribunal Electoral emite un criterio que contradiga uno sostenido por la Suprema Corte sobre la inconstitucionalidad de algún acto o interpretación de la Constitución, la contradicción podrá ser denunciada para que el Pleno de la Suprema Corte decida cuál criterio prevalece.
+Administración y disciplina: Se establece que la administración del Tribunal Electoral corresponderá al órgano de administración judicial, mientras que la disciplina será competencia del Tribunal de Disciplina Judicial.
+Presupuesto y reglamento interno: El Tribunal Electoral tendrá la facultad de proponer su presupuesto al órgano de administración judicial para su inclusión en el proyecto de presupuesto del Poder Judicial. Además, el Tribunal podrá expedir su Reglamento Interno y acuerdos generales para su adecuado funcionamiento.
+Elección de magistradas y magistrados: Las personas que integren la Sala Superior del Tribunal Electoral serán elegidas por la ciudadanía a nivel nacional, y deberán cumplir con los mismos requisitos que se exigen para ser ministra o ministro de la Suprema Corte de Justicia. Su mandato será de seis años improrrogables. Las magistraturas regionales serán elegidas por circunscripciones electorales y deberán cumplir con los requisitos establecidos por la ley.
+Artículo 100:
+Antes de la reforma, el Consejo de la Judicatura Federal (CJF) era el órgano responsable de la administración, disciplina, y la carrera judicial del Poder Judicial de la Federación. Este consejo se encargaba de aspectos como el nombramiento, supervisión, promoción y separación de jueces y magistrados, además de la gestión de los recursos del Poder Judicial. El CJF estaba compuesto por siete miembros: el presidente de la Suprema Corte de Justicia de la Nación, un consejero designado por el presidente de la República, otro por el Senado, y cuatro miembros designados por el Pleno de la SCJN.
+Con la reforma al artículo 100, el Consejo de la Judicatura Federal es sustituido por el Órgano de Administración Judicial (OAJ). Este nuevo órgano estará encargado de la administración de los recursos, el manejo de la carrera judicial (excluyendo a jueces y magistrados) y el control interno.
+Estructura del Órgano de Administración Judicial:
+Composición: El Órgano de Administración Judicial estará compuesto por cinco miembros. Uno de ellos será designado por el presidente de la República, otro por el Senado de la República, y los otros tres serán nombrados por el Pleno de la Suprema Corte de Justicia de la Nación, a través de votación calificada de seis votos. Este esquema busca asegurar una representación equilibrada de los poderes del Estado en la gestión del órgano.
+Duración en el cargo: Los integrantes del OAJ ejercerán su encargo por un periodo de seis años, sin posibilidad de reelección. Además, la presidencia del órgano será rotatoria cada dos años, conforme a lo establecido por la ley, para evitar la concentración de poder en un solo individuo.
+Funciones: El OAJ asumirá la responsabilidad de determinar el número, división de circuitos, competencia territorial y especialización por materias de los Tribunales Colegiados de Circuito, Tribunales Colegiados de Apelación, y Juzgados de Distrito. Además, será responsable del ingreso, permanencia, promoción y separación del personal judicial (exceptuando jueces y magistrados), así como de la gestión administrativa de los recursos materiales y financieros del Poder Judicial.
+Control y supervisión: El OAJ también tendrá a su cargo la inspección del cumplimiento de las normas de funcionamiento administrativo del Poder Judicial. Asimismo, contará con la Escuela Nacional de Formación Judicial, que será responsable de la formación, capacitación, certificación y evaluación del personal judicial.
+La evaluación del primer año de los magistrados y jueces electos, establecida como parte de la reforma al Poder Judicial, tiene como objetivo revisar el desempeño de los funcionarios judiciales durante su primer año en el cargo. Esta evaluación estará a cargo del Tribunal de Disciplina Judicial, quien se encargará de evaluar a los magistrados de circuito y jueces de distrito que resulten electos en la elección federal correspondiente.
+La ley determinará los métodos, criterios e indicadores aplicables a esta evaluación, que debe realizarse bajo parámetros de imparcialidad y objetividad. Si la evaluación es insatisfactoria, se establecerán medidas correctivas, tales como actividades de capacitación para mejorar las competencias del funcionario evaluado. Si, tras la aplicación de estas medidas, el evaluado no logra aprobar o se niega a acatar las medidas correctivas, el Tribunal podrá imponer una suspensión de hasta un año. En caso de que después de ese periodo no se acredite satisfactoriamente la evaluación, el Tribunal podrá determinar la destitución del funcionario, sin que esto implique responsabilidad para el Poder Judicial.
+En cuanto al presupuesto, la reforma establece que el Órgano de Administración Judicial será el encargado de elaborar el presupuesto del Poder Judicial de la Federación. Este órgano tendrá la responsabilidad de determinar las necesidades financieras del Poder Judicial y, posteriormente, remitir dicho presupuesto para su inclusión en el proyecto de Presupuesto de Egresos de la Federación. Además, la reforma prohíbe la creación y operación de fondos, fideicomisos, mandatos o contratos análogos que no estén previstos por la ley dentro del Poder Judicial, lo que busca asegurar una mayor transparencia y control sobre los recursos financieros asignados a este poder.
+El Tribunal de Disciplina Judicial
+El Tribunal de Disciplina Judicial, creado por la reforma al Artículo 100 de la Constitución, es un órgano del Poder Judicial de la Federación con independencia técnica, de gestión y resolutiva. Este tribunal tiene como función principal supervisar la disciplina y el desempeño de los funcionarios judiciales y cuenta con diversas facultades en materia de sanciones y evaluaciones.
+Composición: El Tribunal de Disciplina Judicial estará integrado por cinco personas elegidas por la ciudadanía a nivel nacional, conforme al procedimiento establecido en el Artículo 96 de la Constitución. Los magistrados y magistradas deberán cumplir con los requisitos señalados en el Artículo 95 (que incluye capacidad profesional, honestidad y honorabilidad) y su mandato será de seis años, sin posibilidad de reelección. Además, su presidencia será rotativa cada dos años, asignándose según la mayor votación obtenida en la elección respectiva.
+Funciones:
+El tribunal tiene amplias facultades, entre ellas:
+Investigar oficiosamente o por denuncia actos que puedan constituir faltas graves o delitos cometidos por servidores públicos judiciales.
+Emitir sanciones que pueden incluir amonestación, suspensión, sanción económica, destitución e inhabilitación, excepto para los ministros de la Suprema Corte y los magistrados electorales, quienes solo pueden ser removidos bajo los términos del Título Cuarto de la Constitución.
+Evaluar el desempeño de magistrados y jueces de distrito durante su primer año de ejercicio, estableciendo criterios e indicadores para medir su actuación.
+Ordenar medidas correctivas, tales como capacitaciones, y si no se cumplen o no resultan satisfactorias, el tribunal puede imponer una suspensión de hasta un año o, en casos más graves, la destitución definitiva del funcionario.
+Procedimiento y resoluciones
+: El Tribunal funciona tanto en Pleno como en comisiones. Las comisiones, compuestas por tres de sus miembros, se encargan de desahogar procedimientos de responsabilidades administrativas en primera instancia. Las resoluciones podrán ser impugnadas ante el Pleno, que resolverá con una mayoría de cuatro votos. Las decisiones del tribunal son definitivas e inatacables, lo que significa que no se puede interponer ningún juicio o recurso en su contra.
+Investigación y sanciones:
+El Tribunal puede llevar a cabo investigaciones a través de una unidad responsable de recabar pruebas, realizar inspecciones y solicitar comparecencias. También tiene la facultad de dar vista al Ministerio Público si considera que se ha cometido un delito, y puede solicitar el inicio de un juicio político ante la Cámara de Diputados.
+Artículo 105:
+El cambio al Artículo 105 es relevante, particularmente en lo que respecta a la suspensión en controversias y acciones de inconstitucionalidad. La reforma establece que la Suprema Corte de Justicia de la Nación solo podrá declarar la invalidez de las normas impugnadas siempre que se logre una mayoría calificada de al menos seis votos de los ministros. Además, el cambio señala que cuando se trate de acciones de inconstitucionalidad presentadas contra normas generales, la admisión de la acción no dará lugar a la suspensión automática de la norma impugnada. Esto significa que la norma cuestionada seguirá vigente y aplicándose mientras se resuelve la acción de inconstitucionalidad. En términos prácticos, las normas impugnadas no quedarán en pausa ni perderán efecto durante el tiempo en que la Suprema Corte analice su constitucionalidad.
+“Tratándose de controversias constitucionales o de acciones de inconstitucionalidad planteadas respecto de normas generales, en ningún caso su admisión dará lugar a la suspensión de la norma cuestionada.”
+Artículo 107:
+El Artículo 107 de la Constitución regula el juicio de amparo, el cual es el mecanismo de protección de los derechos fundamentales. Con la reforma, se introducen modificaciones relevantes respecto a los efectos de las sentencias y la suspensión de actos en el amparo, especialmente en relación con el amparo contra leyes.
+Sentencias del amparo: Las sentencias que se pronuncien en los juicios de amparo continuarán limitadas exclusivamente a las personas que presenten la demanda, es decir, a los quejosos. Incluso en los casos en los que el amparo resuelva sobre la inconstitucionalidad de normas generales, las sentencias solo beneficiarán a quienes hayan interpuesto el juicio, sin que se generen efectos generales para otros.
+“Tratándose de juicios de amparo que resuelvan la inconstitucionalidad de normas generales, en ningún caso las sentencias que se dicten fijarán efectos generales.”
+Jurisprudencia y declaración general de inconstitucionalidad: Si un Tribunal Colegiado de Circuito, mediante jurisprudencia por reiteración, o la Suprema Corte de Justicia de la Nación, mediante precedentes, determina la inconstitucionalidad de una norma general, se seguirá un procedimiento específico. El presidente del tribunal que estableció dicha jurisprudencia o precedente notificará a la autoridad emisora de la norma, otorgándole un plazo de 90 días naturales para subsanar el problema de inconstitucionalidad. Si la autoridad no corrige la norma dentro de este plazo, la Suprema Corte, con una mayoría calificada de seis votos, podrá emitir una declaratoria general de inconstitucionalidad, que tendrá efectos generales, fijando los alcances y condiciones conforme a lo que establezca la ley reglamentaria.
+Suspensión de los actos reclamados: Respecto a la suspensión de los actos reclamados en un juicio de amparo, la reforma introduce la disposición de que los actos podrán ser objeto de suspensión bajo condiciones determinadas por la ley reglamentaria. El juez de amparo deberá realizar un análisis ponderado entre el buen derecho (la probabilidad de que el quejoso tenga razón) y el interés social al conceder la suspensión. Sin embargo, cuando se trate de un juicio de amparo que reclame la inconstitucionalidad de normas generales, la suspensión no podrá concederse con efectos generales, es decir, no afectará la vigencia de la norma mientras se resuelve el fondo del asunto.
+Artículo 116
+: El Artículo 116 de la Constitución Política de los Estados Unidos Mexicanos regula el funcionamiento de los poderes judiciales locales en cada uno de los estados del país, garantizando que los estados cuenten con su propio sistema de justicia y jueces. Antes de la reforma, los jueces y magistrados locales eran nombrados mediante procedimientos establecidos por cada Congreso estatal o por los Consejos de la Judicatura locales, sin estar sujetos a las mismas reglas que rigen el Poder Judicial de la Federación. Este proceso variaba de un estado a otro, generando diferencias significativas en los métodos de selección, nombramiento y duración de los jueces y magistrados locales.
+Con la reforma al Artículo 116, se establece que la elección de jueces y magistrados locales deberá seguir las mismas bases que rigen la elección en el Poder Judicial Federal. Esto implica que los jueces y magistrados locales serán elegidos por voto popular, al igual que los ministros de la Suprema Corte, magistrados de circuito y jueces de distrito a nivel federal, integrando así la participación ciudadana en el proceso de selección de estos funcionarios. Además, las legislaciones locales deberán ser reformadas para permitir la reelección de estos jueces y magistrados, siguiendo un proceso similar al que se estableció en la reforma para los jueces y magistrados federales.
+Artículo 122:
+Se establece que la Ciudad de México deberá adecuar su constitución para regular la elección de jueces y magistrados locales, con la posibilidad de reelección, siguiendo los mismos principios establecidos para el Poder Judicial de la Federación.
+Proceso de implementación
+El proceso de implementación de la reforma se estructura de acuerdo con los artículos transitorios del decreto. A continuación, se explican los pasos conforme a los transitorios que establecen cómo se llevará a cabo:
+Entrada en vigor y Proceso Electoral Extraordinario 2024-2025: El decreto entrará en vigor un día después de su publicación en el Diario Oficial de la Federación. El Proceso Electoral Extraordinario dará inicio el mismo día de la entrada en vigor y abarcará la elección de:
+Ministros y Ministras de la Suprema Corte de Justicia de la Nación.
+Las magistraturas vacantes de la Sala Superior y todas las Magistradas y Magistrados de las Salas Regionales del Tribunal Electoral del Poder Judicial de la Federación.
+Los integrantes del Tribunal de Disciplina Judicial.
+La mitad de los cargos de Magistrados de Circuito y Jueces de Distrito.
+Incorporación de los actuales funcionarios: Los funcionarios que actualmente ocupan estos cargos serán incorporados a los listados para participar en la elección extraordinaria, salvo que manifiesten declinar su candidatura o se postulen para otros cargos judiciales. Si no resultan electos, concluirán su encargo cuando los nuevos funcionarios electos tomen protesta.
+Convocatoria y procedimiento: El Senado de la República tendrá un plazo de 30 días para emitir la convocatoria para integrar los listados de personas candidatas a participar en la elección extraordinaria. Para los magistrados y jueces de distrito, la elección será escalonada, renovando la mitad de los cargos en la elección de 2025 y la otra mitad en la elección federal ordinaria de 2027.
+Elección y boletas electorales: El Consejo General del Instituto Nacional Electoral organizará el proceso electoral y la jornada electoral se celebrará el primer domingo de junio de 2025. Las boletas electorales incluirán los cargos y nombres de los candidatos organizados alfabéticamente. Las personas votantes podrán elegir a los funcionarios, garantizando paridad de género.
+Duración de los cargos:
+Ministros de la Suprema Corte elegidos en 2025 durarán entre ocho y once años, dependiendo del número de votos que obtengan.
+Magistrados de Circuito y Jueces de Distrito tendrán un periodo de ocho años.
+Aquellos que ya estén en funciones y sean electos en 2025 seguirán en su encargo por el periodo restante de su nombramiento original. Las magistraturas de circuito y jueces de distrito tendrán periodos de 8 años, venciendo en 2033.
+Transición y extinción del Consejo de la Judicatura Federal: El Tribunal de Disciplina Judicial y el Órgano de Administración Judicial comenzarán sus funciones cuando los nuevos magistrados tomen protesta en 2025, momento en el que el Consejo de la Judicatura Federal será extinto. El Consejo se encargará de implementar un plan de trabajo para transferir los recursos y expedientes al nuevo tribunal y órgano administrativo.
+La interpretación y aplicación del decreto deberá basarse en su literalidad, sin permitir interpretaciones extensivas o análogas que alteren su contenido.
+Últimas entradas
+publicadas
+Previous
+Reforma Constitucional del Poder Judicial
+by
+editorprime
+|
+Dic 11, 2024
+|
+Actualidad Prime
+|
+0 Comments
+R. Leopoldo Cruz Balbuena, Ph.D. La Reforma del Poder Judicial publicada en el Diario Oficial de la Federación el 15 de septiembre de 2024 introduce modificaciones...
+Read More
+Consultoría Tirant. Medidas de protección.
+by
+cossio
+|
+Dic 11, 2024
+|
+Actualidad Prime
+|
+0 Comments
+Consulta ¿Es posible interponer un juicio de amparo contra medidas de protección relativas a un caso de presunta violencia familiar? En el caso concreto una persona no...
+Read More
+Aprobación de dictámenes a leyes secundarias
+by
+cossio
+|
+Dic 10, 2024
+|
+Actualidad Prime
+|
+0 Comments
+La Comisión de Justicia de la Cámara de Diputados aprobó dictámenes a las tres leyes secundarias de la reforma al Poder Judicial por medio de las cuales se expiden las...
+Read More
+Se impulsa reforma para tipificar la usurpación de identidad
+by
+cossio
+|
+Dic 9, 2024
+|
+Actualidad Prime
+|
+0 Comments
+Se presentó una iniciativa en la Cámara de Diputados a fin de reformar el Código Penal Federal en materia de suplantación de identidad; se pretende adicionar un...
+Read More
+Leyes secundarias. Reforma Judicial
+by
+cossio
+|
+Dic 5, 2024
+|
+Actualidad Prime
+|
+0 Comments
+El Senado de la República dio primera lectura a los dictámenes referentes a las leyes secundarias de la reforma judicial. Se trata de los dictámenes para expedir...
+Read More
+Reforma Constitucional en materia de inimpugnabilidad de las adiciones o reformas a la Constitución Federal
+by
+editorprime
+|
+Dic 5, 2024
+|
+Actualidad Prime
+|
+0 Comments
+Autor: R. Leopoldo Cruz Balbuena, Ph.D.   La segunda reforma publicada el 31 de octubre de 2024 modifica los artículos 105 y 107 de la Constitución Política de los...
+Read More
+Next
+¿Hablamos?
+
+Atención al usuario
+09 a 19 horas (55) 6550 2317
+Seguir
+Seguir
+Seguir
+Seguir
+Seguir
+Comenzar prueba gratuita
+
+Tirant Prime
+Política de privacidad
+Configuración de cookies
+Política de cookies
+Política Integrada
+Aviso legal
+Código de Conducta
+Protocolo contra acoso LGTBI
+Nuestra garantía
+Condiciones de contratación de la base de datos
+Acuerdo de usuario para la utilización del software Gestión de Despachos
+Empleados
+Procedimiento de quejas
+Procedimiento de recepción y gestión de denuncias
+Registro de contrato de adhesión ante PROFECO
+Descubre
+Editorial Tirant
+Tirant Formación
+Tirant TECH
+PRIME INTERNACIONAL
+Prime España
+Prime México
+Prime Colombia
+Prime Chile
+Prime Costa Rica
+Prime El Salvador
+Cerrar
+Te llamamos sin compromiso.
+Un asesor experto se pondrá en contacto para resolver cualquier duda y asesorarte en todo lo que necesites.
++52
+Mexico (México)
++52
+Afghanistan (‫افغانستان‬‎)
++93
+Albania (Shqipëri)
++355
+Algeria (‫الجزائر‬‎)
++213
+American Samoa
++1684
+Andorra
++376
+Angola
++244
+Anguilla
++1264
+Antigua and Barbuda
++1268
+Argentina
++54
+Armenia (Հայաստան)
++374
+Aruba
++297
+Australia
++61
+Austria (Österreich)
++43
+Azerbaijan (Azərbaycan)
++994
+Bahamas
++1242
+Bahrain (‫البحرين‬‎)
++973
+Bangladesh (বাংলাদেশ)
++880
+Barbados
++1246
+Belarus (Беларусь)
++375
+Belgium (België)
++32
+Belize
++501
+Benin (Bénin)
++229
+Bermuda
++1441
+Bhutan (འབྲུག)
++975
+Bolivia
++591
+Bosnia and Herzegovina (Босна и Херцеговина)
++387
+Botswana
++267
+Brazil (Brasil)
++55
+British Indian Ocean Territory
++246
+British Virgin Islands
++1284
+Brunei
++673
+Bulgaria (България)
++359
+Burkina Faso
++226
+Burundi (Uburundi)
++257
+Cambodia (កម្ពុជា)
++855
+Cameroon (Cameroun)
++237
+Canada
++1
+Cape Verde (Kabu Verdi)
++238
+Caribbean Netherlands
++599
+Cayman Islands
++1345
+Central African Republic (République centrafricaine)
++236
+Chad (Tchad)
++235
+Chile
++56
+China (中国)
++86
+Christmas Island
++61
+Cocos (Keeling) Islands
++61
+Colombia
++57
+Comoros (‫جزر القمر‬‎)
++269
+Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)
++243
+Congo (Republic) (Congo-Brazzaville)
++242
+Cook Islands
++682
+Costa Rica
++506
+Côte d’Ivoire
++225
+Croatia (Hrvatska)
++385
+Cuba
++53
+Curaçao
++599
+Cyprus (Κύπρος)
++357
+Czech Republic (Česká republika)
++420
+Denmark (Danmark)
++45
+Djibouti
++253
+Dominica
++1767
+Dominican Republic (República Dominicana)
++1
+Ecuador
++593
+Egypt (‫مصر‬‎)
++20
+El Salvador
++503
+Equatorial Guinea (Guinea Ecuatorial)
++240
+Eritrea
++291
+Estonia (Eesti)
++372
+Ethiopia
++251
+Falkland Islands (Islas Malvinas)
++500
+Faroe Islands (Føroyar)
++298
+Fiji
++679
+Finland (Suomi)
++358
+France
++33
+French Guiana (Guyane française)
++594
+French Polynesia (Polynésie française)
++689
+Gabon
++241
+Gambia
++220
+Georgia (საქართველო)
++995
+Germany (Deutschland)
++49
+Ghana (Gaana)
++233
+Gibraltar
++350
+Greece (Ελλάδα)
++30
+Greenland (Kalaallit Nunaat)
++299
+Grenada
++1473
+Guadeloupe
++590
+Guam
++1671
+Guatemala
++502
+Guernsey
++44
+Guinea (Guinée)
++224
+Guinea-Bissau (Guiné Bissau)
++245
+Guyana
++592
+Haiti
++509
+Honduras
++504
+Hong Kong (香港)
++852
+Hungary (Magyarország)
++36
+Iceland (Ísland)
++354
+India (भारत)
++91
+Indonesia
++62
+Iran (‫ایران‬‎)
++98
+Iraq (‫العراق‬‎)
++964
+Ireland
++353
+Isle of Man
++44
+Israel (‫ישראל‬‎)
++972
+Italy (Italia)
++39
+Jamaica
++1
+Japan (日本)
++81
+Jersey
++44
+Jordan (‫الأردن‬‎)
++962
+Kazakhstan (Казахстан)
++7
+Kenya
++254
+Kiribati
++686
+Kosovo
++383
+Kuwait (‫الكويت‬‎)
++965
+Kyrgyzstan (Кыргызстан)
++996
+Laos (ລາວ)
++856
+Latvia (Latvija)
++371
+Lebanon (‫لبنان‬‎)
++961
+Lesotho
++266
+Liberia
++231
+Libya (‫ليبيا‬‎)
++218
+Liechtenstein
++423
+Lithuania (Lietuva)
++370
+Luxembourg
++352
+Macau (澳門)
++853
+Macedonia (FYROM) (Македонија)
++389
+Madagascar (Madagasikara)
++261
+Malawi
++265
+Malaysia
++60
+Maldives
++960
+Mali
++223
+Malta
++356
+Marshall Islands
++692
+Martinique
++596
+Mauritania (‫موريتانيا‬‎)
++222
+Mauritius (Moris)
++230
+Mayotte
++262
+Mexico (México)
++52
+Micronesia
++691
+Moldova (Republica Moldova)
++373
+Monaco
++377
+Mongolia (Монгол)
++976
+Montenegro (Crna Gora)
++382
+Montserrat
++1664
+Morocco (‫المغرب‬‎)
++212
+Mozambique (Moçambique)
++258
+Myanmar (Burma) (မြန်မာ)
++95
+Namibia (Namibië)
++264
+Nauru
++674
+Nepal (नेपाल)
++977
+Netherlands (Nederland)
++31
+New Caledonia (Nouvelle-Calédonie)
++687
+New Zealand
++64
+Nicaragua
++505
+Niger (Nijar)
++227
+Nigeria
++234
+Niue
++683
+Norfolk Island
++672
+North Korea (조선 민주주의 인민 공화국)
++850
+Northern Mariana Islands
++1670
+Norway (Norge)
++47
+Oman (‫عُمان‬‎)
++968
+Pakistan (‫پاکستان‬‎)
++92
+Palau
++680
+Palestine (‫فلسطين‬‎)
++970
+Panama (Panamá)
++507
+Papua New Guinea
++675
+Paraguay
++595
+Peru (Perú)
++51
+Philippines
++63
+Poland (Polska)
++48
+Portugal
++351
+Puerto Rico
++1
+Qatar (‫قطر‬‎)
++974
+Réunion (La Réunion)
++262
+Romania (România)
++40
+Russia (Россия)
++7
+Rwanda
++250
+Saint Barthélemy
++590
+Saint Helena
++290
+Saint Kitts and Nevis
++1869
+Saint Lucia
++1758
+Saint Martin (Saint-Martin (partie française))
++590
+Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)
++508
+Saint Vincent and the Grenadines
++1784
+Samoa
++685
+San Marino
++378
+São Tomé and Príncipe (São Tomé e Príncipe)
++239
+Saudi Arabia (‫المملكة العربية السعودية‬‎)
++966
+Senegal (Sénégal)
++221
+Serbia (Србија)
++381
+Seychelles
++248
+Sierra Leone
++232
+Singapore
++65
+Sint Maarten
++1721
+Slovakia (Slovensko)
++421
+Slovenia (Slovenija)
++386
+Solomon Islands
++677
+Somalia (Soomaaliya)
++252
+South Africa
++27
+South Korea (대한민국)
++82
+South Sudan (‫جنوب السودان‬‎)
++211
+Spain (España)
++34
+Sri Lanka (ශ්‍රී ලංකාව)
++94
+Sudan (‫السودان‬‎)
++249
+Suriname
++597
+Svalbard and Jan Mayen
++47
+Swaziland
++268
+Sweden (Sverige)
++46
+Switzerland (Schweiz)
++41
+Syria (‫سوريا‬‎)
++963
+Taiwan (台灣)
++886
+Tajikistan
++992
+Tanzania
++255
+Thailand (ไทย)
++66
+Timor-Leste
++670
+Togo
++228
+Tokelau
++690
+Tonga
++676
+Trinidad and Tobago
++1868
+Tunisia (‫تونس‬‎)
++216
+Turkey (Türkiye)
++90
+Turkmenistan
++993
+Turks and Caicos Islands
++1649
+Tuvalu
++688
+U.S. Virgin Islands
++1340
+Uganda
++256
+Ukraine (Україна)
++380
+United Arab Emirates (‫الإمارات العربية المتحدة‬‎)
++971
+United Kingdom
++44
+United States
++1
+Uruguay
++598
+Uzbekistan (Oʻzbekiston)
++998
+Vanuatu
++678
+Vatican City (Città del Vaticano)
++39
+Venezuela
++58
+Vietnam (Việt Nam)
++84
+Wallis and Futuna (Wallis-et-Futuna)
++681
+Western Sahara (‫الصحراء الغربية‬‎)
++212
+Yemen (‫اليمن‬‎)
++967
+Zambia
++260
+Zimbabwe
++263
+Åland Islands
++358
+Mañana
+Tarde
+Indiferente
+Acepto
+las condiciones y la política de privacidad
+de Tirant lo Blanch.
+Llamadme ahora
+X
+Ingresa
+Username or Email
+Contraseña
+Recuérdame
+¿Has perdido tu contraseña?
+X
+Suscripción
+Rápida y gratuita
+Accede
+para renovar o modificar una membresía existente.
+Usuario
+Correo electrónico
+Nombre
+Apellidos
+Contraseña
+Introduce de nuevo tu contraseña
+Tirant Prime Free
+-
+gratis
+-
+ilimitado
+Accede a todo el contenido exclusivo
+Membresía
+Cantidad
+Tirant Prime Free
+gratis
+Total hoy
+gratis
+Acepto los términos y condiciones
+Acepto la política de privacidad
+Suscríbete a nuestro Boletín
+Chat WhatsApp
+

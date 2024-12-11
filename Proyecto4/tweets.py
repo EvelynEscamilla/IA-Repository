@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from textblob import TextBlob
 
-API_KEY = 'ZSay48KtBK1o4nQHdqOxQcbog'
-API_SECRET = 'NwzVSptRA8bOdV2EP1RaESdU9R0R5Oi8dO30WF57OOLNpVFoB9'
-BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAMHkxQEAAAAAOr6afhqdTpiG64%2FyKs43zKK6%2F%2BY%3DjjUMp2sl7nYcAaeCk04FW9HJWCtPk4Oqzn5qPmI1uOAmTefjri'
+API_KEY = 'Kwt3OMhgmm80w5f0dnWGx1Lxw'
+API_SECRET = 'vlCgfZitIRE0fzDAsfAZOUhVdY61qUTSWSganmoSeKZZV85yTc'
+BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAAT2xQEAAAAAiIPZds3FG9frc4ehwZ7IR6T2pZk%3DTGWZmFIti64nWImDgu21nBIYbvkEAG5t2zYp7G9ldD1yNac13L'
 
 client = tweepy.Client(bearer_token=BEARER_TOKEN)
 
@@ -25,7 +25,7 @@ def buscar_tweets(query, max_tweets=100):
     return tweets
 
 def main():
-    palabra_clave = "Ley de Organismos Autónomos"
+    palabra_clave = "reforma judicial México"
     resultados = buscar_tweets(palabra_clave, max_tweets=50)
     
     if resultados:

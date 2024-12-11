@@ -1,10 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from time import sleep
+import json
 
 def extraer_info_pagina(url):
     try:
@@ -31,7 +31,7 @@ def extraer_info_pagina(url):
     except Exception as e:
         return {'url': url, 'error': str(e)}
 
-def guardar_en_txt(informacion, nombre_archivo='informacion_extraida.txt'):
+def guardar_en_txt(informacion, nombre_archivo):
     with open(nombre_archivo, 'w', encoding='utf-8') as archivo:
         archivo.write(f"Información extraída de la URL: {informacion['url']}\n\n")
         archivo.write(f"Texto extraído sin etiquetas HTML:\n")
@@ -39,12 +39,24 @@ def guardar_en_txt(informacion, nombre_archivo='informacion_extraida.txt'):
         print(f"Información guardada en {nombre_archivo}")
 
 def main():
-    url = input("Introduce la URL de la página a extraer: ").strip()
-    info_pagina = extraer_info_pagina(url)
-    if 'error' in info_pagina:
-        print(f"Error al extraer la información: {info_pagina['error']}")
-    else:
-        guardar_en_txt(info_pagina)
+    try:
+        with open('enlaces_reforma_judicial.json', 'r', encoding='utf-8') as f:
+            links = json.load(f)
+    except FileNotFoundError:
+        print("No se encontraron enlaces guardados.")
+        return
+
+    if not links:
+        print("No se encontraron enlaces.")
+        return
+    
+    for idx, link in enumerate(links, 1):
+        info_pagina = extraer_info_pagina(link)
+        if 'error' in info_pagina:
+            print(f"Error al extraer la información de {link}: {info_pagina['error']}")
+        else:
+            archivo_txt = f'informacion_extraida_{idx}.txt' 
+            guardar_en_txt(info_pagina, archivo_txt)
 
 if __name__ == '__main__':
     main()

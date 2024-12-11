@@ -1,0 +1,329 @@
+Información extraída de la URL: https://support.google.com/websearch?p=ws_settings_location&hl=es-419
+
+Texto extraído sin etiquetas HTML:
+Comprende y administra la ubicación que se usa cuando realizas una búsqueda en Google - Computadora - Ayuda de Búsqueda web de Google
+Ir al contenido principal
+Ayuda de Búsqueda web de Google
+Acceder
+Enviar comentarios sobre…
+Esta información y contenido de ayuda
+La experiencia general del Centro de ayuda
+Siguiente
+Centro de ayuda
+Comunidad
+Búsqueda web de Google
+Comprende y administra la ubicación que se usa cuando realizas una búsqueda en Google
+Cuando
+usas servicios de Google, como Maps, la Búsqueda o Asistente de Google, se utiliza tu ubicación actual para brindarte resultados más útiles. Por ejemplo, si buscas cafeterías, es probable que busques cafeterías cercanas. Tu ubica
+ción permite que te mostremos resultados
+cercanos, incluso si no agregaste una ubicación en la búsqueda.
+Tu ubicación se obtiene a partir de diferentes fuentes, que se utilizan en conjunto para calcular dónde estás. Puedes actualizar tu configuración de ubicación cuando usas los servicios de Google para obtener los resultados de búsqueda que quieres y controlar tu privacidad de la manera que más te convenga.
+Si quieres obtener
+más información sobre cómo funciona la ubicació
+n antes de cambiar la configuración, consulta
+cómo determina Google la ubicación cuando realizas una búsqueda
+.
+Cómo actualizar tu ubicación para obtener mejores resultados locales
+Si buscas algo
+cercano a tu ubicación y no encuentras resultados de búsqueda locales, prueba estas
+soluciones:
+Agrega tu ubicación actual a la búsqueda, como
+cafeterías en la plaza central
+.
+Comprueba que tu dispositivo envíe la ubicación a Google cuando realices una búsqueda. Sigue los pasos que se indican a continuación para administrar la configuración de ubicación de tu dispositivo.
+Puedes ayudar a Google a brindarte mejores resultados en tu casa o trabajo si configuras:
+Tu dirección particular
+Tu dirección de trabajo
+Computadora
+Android
+iPhone y iPad
+Más
+Más
+Más
+Cómo administrar la configuración de ubicación de tu dispositivo
+La mayoría de las computadoras pueden enviar información sobre la ubicación a los sitios web, incluso si no tienen GPS. Para controlar si se envía la ubicación desde tu dispositivo a un sitio web, como google.com, cambia los permisos de ubicación en el navegador.
+Importante:
+Es posible que debas revisar la configuración de ubicación de la computadora o las preferencias del sistema.
+Cómo administrar los permisos de ubicación para google.com
+En tu computadora, abre el navegador y ve a
+google.com
+.
+En la parte superior izquierda, en la barra de direcciones, presiona Bloquear
+Configuración del sitio
+Ubicación
+. En algunos navegadores, tal vez debas hacer clic con el botón derecho en la barra de direcciones o en el menú de configuración.
+Selecciona
+Permitir
+o
+Bloquear
+en google.com.
+Importante:
+A veces, el navegador puede tardar mucho tiempo en obtener la ubicación actual de tu dispositivo. Para brindarte resultados de búsqueda rápidamente, es posible que google.com utilice la ubicación del dispositivo de la última vez que usaste Google. Esta ubicación se guarda en una configuración de cookies que caduca después de 6 horas. Obtén más información sobre
+cómo administrar cookies
+.
+Cómo determina Google tu ubicación cuando realizas una búsqueda
+Cuando usas servicios de Google, como Maps, la Búsqueda o Asistente de Google, tu ubicación actual se estima a partir de varias fuentes, según su disponibilidad.
+Importante:
+La mayoría de estas fuentes de ubicación se pueden controlar con los permisos de tu dispositivo, las preferencias de la cuenta y otras opciones de configuración. Obtén más información sobre cómo tus decisiones afectan
+la privacidad y ubicación
+.
+Qué fuentes se usan para determinar la ubicación cuando realizas una búsqueda
+Cuando usas Google, puedes ver cómo se calculó tu ubicación en la parte inferior de la página de resultados.
+La ubicación del dispositivo
+Muchos dispositivos, como teléfonos, computadoras, relojes o dispositivos wearable, pueden determinar su ubicación precisa. Este tipo de ubicación precisa es útil en apps, como Google Maps, para brindarte instrucciones sobre cómo llegar o ayudarte a obtener resultados de búsqueda cercanos. Por ejemplo, algunas búsquedas que dependen de tu ubicación precisa, como
+cafetería
+,
+parada de autobús
+o
+cajero automático
+, suelen mostrar resultados más útiles si los permisos de ubicación están activados.
+Si sigues los pasos anteriores, puedes
+administrar la configuración de la ubicación basada en el dispositivo
+y elegir si quieres que la ubicación esté disponible cuando realices una búsqueda. Según el dispositivo que tengas, puedes activar o desactivar la ubicación para el dispositivo, o para apps y sitios web específicos.
+Si usas un dispositivo inteligente para la casa, como Nest Audio o Nest Hub, puedes
+configurar su ubicación en la app de Google Home
+.
+Si se utilizó la ubicación del dispositivo para ayudarte a obtener los resultados de la búsqueda, la información de ubicación que se encuentra en la parte inferior de la página de resultados de búsqueda mostrará el mensaje
+Desde tu dispositivo
+.
+Importante:
+A veces, el navegador puede tardar mucho tiempo en obtener la ubicación actual de tu dispositivo. Para brindarte resultados de búsqueda rápidamente, es posible que google.com utilice la ubicación del dispositivo de la última vez que usaste Google. Esta ubicación se guarda en una configuración de cookies que caduca después de 6 horas. Obtén más información sobre
+cómo administrar cookies
+.
+Tu dirección particular o de trabajo desde tu Cuenta de Google
+Si estableces tu dirección particular o de trabajo, es posible que se utilice para calcular tu ubicación cuando sea probable que estés en uno de estos lugares.
+Puedes editar las direcciones
+particulares
+y
+de trabajo
+en tu Cuenta de Google.
+Si se utilizó la ubicación de tu casa o trabajo para obtener los resultados de la búsqueda, la información de ubicación que se encuentra en la parte inferior de la página de resultados de búsqueda mostrará el mensaje
+Según tus lugares (en casa) o (en el trabajo)
+.
+Tu actividad anterior en sitios y apps de Google
+Si accediste a tu Cuenta de Google y tienes activada la Actividad web y de aplicaciones, es posible que tu actividad en sitios, apps y servicios de Google se guarde en tu Cuenta de Google. Algunos elementos de tu actividad pueden incluir el área general en la que estabas en ese momento. En cambio, si buscas una ubicación precisa, se puede almacenar la ubicación exacta en tu actividad.
+En algunos casos, es posible que las áreas que buscaste anteriormente se usen para calcular una ubicación relevante para tu búsqueda. Por ejemplo, si buscas
+cafeterías en Palermo
+y, luego,
+salón de uñas
+, Google podría mostrar salones de uñas en Palermo.
+Puedes ver y controlar tu Actividad web y de aplicaciones en
+myactivity.google.com
+. Obtén más información para
+ver y controlar la actividad de tu cuenta
+.
+Si no accediste a tu Cuenta de Google, es posible que Google guarde cierta información de ubicación de las búsquedas anteriores del dispositivo que estés usando para brindarte recomendaciones y resultados más pertinentes. Si desactivas la opción
+Personalización de la Búsqueda
+, Google no usará las búsquedas anteriores para estimar tu ubicación. Obtén más información sobre
+cómo realizar búsquedas y navegar en modo Incógnito
+.
+Si se usó tu actividad anterior para obtener los resultados de la búsqueda, la información de ubicación que se encuentra en la parte inferior de la página de resultados de búsqueda dirá "Según tu actividad anterior".
+La dirección IP de tu conexión a Internet
+Tu proveedor de servicios de Internet te asigna una dirección IP, también llamada dirección de Internet. Es un requisito para conectarse a Internet. Las direcciones IP se emplean para establecer la conexión entre tu dispositivo y los sitios web y servicios que usas.
+Las direcciones IP se basan a grandes rasgos en la geografía. Esto significa que cualquier sitio web que uses, incluido google.com, puede obtener información sobre tu área general.
+Si tu dirección IP se utilizó a fin de calcular el área general actual para tu búsqueda, la información de ubicación que se encuentra en la parte inferior de la página de resultados mostrará el mensaje
+De tu dirección de Internet
+.
+Importante
+: Necesitas una dirección IP para que Internet funcione. Cuando usas sitios, apps o servicios como Google, estos, por lo general, detectan información sobre tu ubicación.
+Controles de ubicación y privacidad
+Cuando realizas una búsqueda en Google, siempre se calcula el
+área general
+en la que realizas la búsqueda. Calcular el
+área general
+en la que te encuentras significa que Google puede brindarte resultados relevantes y proteger tu cuenta gracias a la detección de actividad inusual, como el acceso desde una ciudad nueva.
+Un
+área general
+tiene una superficie de al menos 3 km² y 1,000 usuarios como mínimo. De esta forma, el
+área general
+de la búsqueda no te identifica, lo que ayuda a proteger tu privacidad. Esto significa que un
+área general
+suele ser mucho más extensa que 3 km² fuera de las ciudades. El
+área general
+calculada proviene de las fuentes de ubicación descritas en este artículo.
+Si otorgas permisos de ubicación a google.com o a las apps de Google en tu dispositivo, Google usará tu
+ubicación precisa
+para mostrarte los mejores resultados de búsqueda. La
+Ubicación precisa
+se refiere al lugar exacto donde te encuentras, como una dirección particular.
+Si estableces la dirección de tu casa o el trabajo y Google determina que estás en una de ellas, se utilizará esa dirección exacta para la búsqueda.
+Envía tus comentarios sobre este artículo
+Elija una sección para enviar comentarios acerca de ella
+¿Te resultó útil esto?
+¿Cómo podemos mejorarla?
+Sí
+No
+Enviar
+¿Necesitas más ayuda?
+Prueba estos próximos pasos:
+Publicar en la comunidad de ayuda
+Obtén respuestas de miembros de la comunidad
+true
+Ayuda
+1 de 2
+Cómo encontrar y controlar la Actividad web y de aplicaciones
+2 de 2
+Comprende y administra la ubicación que se usa cuando realizas una búsqueda en Google
+© 2024Google
+Política de privacidad
+Condiciones del servicio
+Idioma
+català‎
+dansk‎
+Deutsch‎
+eesti‎
+English‎
+español‎
+euskara‎
+Filipino‎
+français‎
+Gaeilge‎
+galego‎
+hrvatski‎
+Indonesia‎
+italiano‎
+latviešu‎
+lietuvių‎
+magyar‎
+Malti‎
+Melayu‎
+Nederlands‎
+norsk‎
+polski‎
+português (Brasil)‎
+română‎
+slovenčina‎
+slovenščina‎
+suomi‎
+svenska‎
+Tiếng Việt‎
+Türkçe‎
+íslenska‎
+čeština‎
+Ελληνικά‎
+български‎
+русский‎
+српски‎
+українська‎
+‏עברית
+‏اردو
+‏العربية
+‏فارسی
+मराठी‎
+हिन्दी‎
+বাংলা‎
+ગુજરાતી‎
+தமிழ்‎
+తెలుగు‎
+ಕನ್ನಡ‎
+മലയാളം‎
+ไทย‎
+中文（简体）‎
+中文（繁體）‎
+日本語‎
+한국어‎
+español (Latinoamérica)‎
+español (Latinoamérica)‎
+català‎
+dansk‎
+Deutsch‎
+eesti‎
+English‎
+español‎
+euskara‎
+Filipino‎
+français‎
+Gaeilge‎
+galego‎
+hrvatski‎
+Indonesia‎
+italiano‎
+latviešu‎
+lietuvių‎
+magyar‎
+Malti‎
+Melayu‎
+Nederlands‎
+norsk‎
+polski‎
+português (Brasil)‎
+română‎
+slovenčina‎
+slovenščina‎
+suomi‎
+svenska‎
+Tiếng Việt‎
+Türkçe‎
+íslenska‎
+čeština‎
+Ελληνικά‎
+български‎
+русский‎
+српски‎
+українська‎
+‏עברית
+‏اردو
+‏العربية
+‏فارسی
+मराठी‎
+हिन्दी‎
+বাংলা‎
+ગુજરાતી‎
+தமிழ்‎
+తెలుగు‎
+ಕನ್ನಡ‎
+മലയാളം‎
+ไทย‎
+中文（简体）‎
+中文（繁體）‎
+日本語‎
+한국어‎
+español (Latinoamérica)‎
+Habilitar modo oscuro
+Enviar comentarios sobre…
+Esta información y contenido de ayuda
+La experiencia general del Centro de ayuda
+5144245338543120198
+true
+Búsqueda
+Borrar búsqueda
+Cerrar la búsqueda
+Menú principal
+Google Apps
+Buscar en el Centro de asistencia
+true
+true
+true
+Ayuda de Google
+Centro de ayuda
+Comunidad
+Búsqueda web de Google
+Política de privacidad
+Condiciones del servicio
+Enviar comentarios
+true
+true
+100334
+false
+¿Cuál es el problema con esta selección?
+Impreciso: no coincide con lo que veo en el producto
+Difícil de entender: traducción poco clara o incorrecta
+Falta información: es relevante pero no está completa
+Irrelevante: no coincide con el título ni cumple con mis expectativas
+Errores menores: problemas de formato, errores ortográficos y vínculos rotos
+Otras sugerencias: ideas para mejorar el contenido
+Compartir información o sugerencias adicionales
+​
+​
+No compartir información personal
+Cancelar
+Enviar
+Si continúas, aceptas que Google utilice tus respuestas y la
+información de tu cuenta y sistema
+para mejorar los servicios, de acuerdo con nuestra
+Política de Privacidad
+y
+Condiciones del Servicio
+.
+false
+
