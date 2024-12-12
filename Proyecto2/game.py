@@ -2,8 +2,22 @@ import pygame
 import random
 import csv
 import pandas as pd
+from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 import random
+import numpy as np
+from tensorflow.keras.models import Sequential # type: ignore
+from tensorflow.keras.layers import Dense, Input # type: ignore
+
+# Definición del modelo
+model = Sequential([
+    Input(shape=(2,)),  # 2 características de entrada: velocidad_bala y distancia
+    Dense(10, activation='relu'),
+    Dense(1, activation='sigmoid')  # O la activación que necesites
+])
+
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+
 
 # Inicializar Pygame
 pygame.init()
@@ -161,7 +175,7 @@ def pausa_juego():
         print("Juego reanudado.")
 
 def mostrar_submenu_auto():
-    global menu_activo
+    global menu_activo, modo_auto
     pantalla.fill(NEGRO)
     texto = fuente.render("Selecciona una opción: 'D' para Árbol de decisión, 'R' para Red neuronal", True, BLANCO)
     pantalla.blit(texto, (w // 8, h // 2))
@@ -177,17 +191,20 @@ def mostrar_submenu_auto():
             if evento.type == pygame.KEYDOWN:
                 if evento.key == pygame.K_d:
                     print("Árbol de decisión seleccionado")
-                    arbol_decision()  
+                    modo_auto = True
                     submenu_activo = False 
+                    arbol_decision()  # Inicia el modo automático
                 elif evento.key == pygame.K_r:
                     print("Red neuronal seleccionada")
-                    red_neuronal()  
+                    modo_auto = True
                     submenu_activo = False  
+                    red_neuronal()  # Inicia el modo automático con red neuronal
 
                 elif evento.key == pygame.K_q:
                     print("Juego terminado. Datos recopilados:", datos_modelo)
                     pygame.quit()
                     exit()
+
 
 def mostrar_menu():
     global menu_activo, modo_auto
@@ -214,11 +231,142 @@ def mostrar_menu():
                     pygame.quit()
                     exit()
 
+def entrenar_arbol_decision():
+    # Cargar los datos del archivo CSV
+    dataset = pd.read_csv('datos_modelo.csv', header=None)
+    
+    # Definir características (X) y etiquetas (y)
+    X = dataset.iloc[:, :2]  # Las dos primeras columnas son las características
+    y = dataset.iloc[:, 2]   # La tercera columna es la etiqueta (salto_hecho)
+    
+    # Dividir los datos en conjunto de entrenamiento y prueba
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    
+    # Crear el clasificador de Árbol de Decisión
+    clf = DecisionTreeClassifier()
+    
+    # Entrenar el modelo
+    clf.fit(X_train, y_train)
+    
+    return clf
+
+def predecir_accion(model, velocidad_bala, distancia):
+    # Convierte la entrada a un numpy array
+    datos_entrada = np.array([[velocidad_bala, distancia]])
+    # Realiza la predicción con el modelo
+    prediccion = model.predict(datos_entrada)
+    return prediccion
+
+
 def arbol_decision():
-    print("Árbol de decisión seleccionado")
+    global modo_auto, jugador, bala, salto, en_suelo
+
+    # Entrenar el árbol de decisión
+    clf = entrenar_arbol_decision()
+
+    while modo_auto:
+        # Obtener los datos necesarios para la predicción
+        distancia = abs(jugador.x - bala.x)
+        velocidad_bala_abs = abs(velocidad_bala)
+
+        # Predecir la acción
+        accion = predecir_accion(clf, velocidad_bala_abs, distancia)
+
+        if accion == 1:  # Si la predicción es 1 (saltar)
+            if en_suelo:
+                salto = True
+                en_suelo = False  # El jugador ya no está en el suelo
+
+        # Simular el comportamiento del juego en automático
+        if salto:
+            manejar_salto()
+
+        # Verificar si el jugador ha tocado el suelo (y actualizar estado)
+        if jugador.y >= h - 100:
+            jugador.y = h - 100
+            if not en_suelo:  # Solo actualizar si el jugador estaba en el aire
+                en_suelo = True
+                salto = False  # El salto ha terminado
+
+        if not bala_disparada:
+            disparar_bala()
+
+        update()
+
+        pygame.display.flip()
+        pygame.time.Clock().tick(30)
+
+def crear_red_neuronal():
+    # Crear un modelo de red neuronal
+    model = Sequential([
+        Dense(4, input_dim=2, activation='relu'),  # Capa oculta
+        Dense(1, activation='sigmoid')  # Capa de salida
+    ])
+    
+    # Compilar el modelo
+    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+    
+    return model
+
+def entrenar_red_neuronal():
+    # Cargar los datos del archivo CSV
+    dataset = pd.read_csv('datos_modelo.csv', header=None)
+    
+    # Definir características (X) y etiquetas (y)
+    X = dataset.iloc[:, :2].values  # Las dos primeras columnas son las características
+    y = dataset.iloc[:, 2].values   # La tercera columna es la etiqueta (salto_hecho)
+    
+    # Dividir los datos en conjunto de entrenamiento y prueba
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    
+    # Crear y entrenar el modelo
+    model = crear_red_neuronal()
+    model.fit(X_train, y_train, epochs=20, batch_size=32, verbose=1)
+    
+    return model
+
+def predecir_accionN(model, velocidad_bala, distancia):
+    # Hacer una predicción con el modelo entrenado
+    prediccion = model.predict(np.array([[velocidad_bala, distancia]]))
+    # Retornar la acción correspondiente (0 = no saltar, 1 = saltar)
+    return int(prediccion[0][0] > 0.5)
 
 def red_neuronal():
-    print("Red neuronal seleccionada")
+    global modo_auto, jugador, bala, salto, en_suelo
+    
+    # Entrenar la red neuronal
+    model = entrenar_red_neuronal()
+
+    while modo_auto:
+        # Obtener los datos necesarios para la predicción
+        distancia = abs(jugador.x - bala.x)
+        velocidad_bala_abs = abs(velocidad_bala)
+
+        # Predecir la acción (saltar o no)
+        accion = predecir_accionN(model, velocidad_bala_abs, distancia)
+
+        if accion == 1:  # Si la predicción es 1 (saltar)
+            if en_suelo:
+                salto = True
+                en_suelo = False  # El jugador ya no está en el suelo
+
+        # Simular el comportamiento del juego en automático
+        if salto:
+            manejar_salto()
+
+        # Verificar si el jugador ha tocado el suelo (y actualizar estado)
+        if jugador.y >= 400 - 100:
+            jugador.y = 400 - 100
+            if not en_suelo:  # Solo actualizar si el jugador estaba en el aire
+                en_suelo = True
+                salto = False  # El salto ha terminado
+
+        if not bala_disparada:
+            disparar_bala()
+
+        update()
+        pygame.display.flip()
+        pygame.time.Clock().tick(30)
 
 def reiniciar_juego():
     global menu_activo, jugador, bala, nave, bala_disparada, salto, en_suelo
