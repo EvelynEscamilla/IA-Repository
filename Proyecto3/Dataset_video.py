@@ -41,6 +41,7 @@ def generar_versiones(output_folder, base_name, frame):
         "filtro_bn": lambda img: aplicar_filtros_basicos(img, "blanco_negro"),
         "filtro_rgb": lambda img: aplicar_filtros_basicos(img, "rgb"),
         "filtro_grises": lambda img: aplicar_filtros_basicos(img, "escala_grises"),
+        "espejo": lambda img: cv2.flip(img, 1), 
     }
 
     for nombre, transformacion in transformaciones.items():
@@ -95,7 +96,7 @@ def generar_dataset(video_path, output_folder, resolution=(28, 21)):
     print(f"Dataset generado en {output_folder}")
 
 
-video_path = "C:/Users/ShiEu/Downloads/LH6 ‐ Hecho con Clipchamp.MP4" 
+video_path = "C:/Users/ShiEu/Downloads/RRS1 ‐ Hecho con Clipchamp (1).MP4" 
 output_folder = "C:/Users/ShiEu/Documents/dataset_coches"
 
 generar_dataset(video_path, output_folder)
