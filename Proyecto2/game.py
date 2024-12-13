@@ -142,7 +142,12 @@ def update():
 
     if jugador.colliderect(bala):
         print("Colisión detectada!")
-        reiniciar_juego()  
+        en_suelo=True
+        salto=False
+        if not arbol_decision and not red_neuronal:
+            entrenar_red_neuronal()
+            entrenar_arbol_decision()
+        reiniciar_juego() 
 
 def guardar_datos():
     global jugador, bala, velocidad_bala, salto
@@ -286,8 +291,8 @@ def arbol_decision():
 def crear_red_neuronal():
     print("Lista: " ,datos_modelo)
     model = Sequential([
-        Dense(8, input_dim=2, activation='relu'),
-        Dense(4, activation='relu'),
+        Dense(4, input_dim=2, activation='relu'),
+        #Dense(4, activation='relu'),
         Dense(1, activation='sigmoid')
     ])
     
@@ -304,7 +309,7 @@ def entrenar_red_neuronal():
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     
     model = crear_red_neuronal()
-    model.fit(X_train, y_train, epochs=40, batch_size=64, verbose=1)
+    model.fit(X_train, y_train, epochs=60, batch_size=64, verbose=1)
     
     return model
 
@@ -314,7 +319,8 @@ def predecir_accionN(model, velocidad_bala, distancia):
 
 def red_neuronal():
     global modo_auto, jugador, bala, salto, en_suelo, menu_activo
-    
+
+
     model = entrenar_red_neuronal()
 
     while modo_auto:
@@ -333,6 +339,7 @@ def red_neuronal():
         distancia = abs(jugador.x - bala.x)
         velocidad_bala_abs = abs(velocidad_bala)
 
+        # Predecir acción con la red neuronal
         accion = predecir_accionN(model, velocidad_bala_abs, distancia)
 
         if accion == 1:
@@ -343,8 +350,8 @@ def red_neuronal():
         if salto:
             manejar_salto()
 
-        if jugador.y >= 400 - 100:
-            jugador.y = 400 - 100
+        if jugador.y >= h - 100:
+            jugador.y = h - 100
             if not en_suelo:
                 en_suelo = True
                 salto = False
@@ -353,8 +360,10 @@ def red_neuronal():
             disparar_bala()
 
         update()
+
         pygame.display.flip()
         pygame.time.Clock().tick(30)
+
 
 def reiniciar_juego():
     global menu_activo, jugador, bala, nave, bala_disparada, salto, en_suelo
