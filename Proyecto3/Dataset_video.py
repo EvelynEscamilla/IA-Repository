@@ -101,7 +101,7 @@ def generar_dataset(video_path, output_folder, resolution=(28, 21)):
     print(f"Dataset generado en {output_folder}")
 
 
-video_path = "C:/Users/ShiEu/Downloads/MB4 ‐ Hecho con Clipchamp.MP4" 
+video_path = "C:/Users/ShiEu/Downloads/MB5 ‐ Hecho con Clipchamp.MP4" 
 output_folder = "C:/Users/ShiEu/Documents/dataset_coches"
 
 generar_dataset(video_path, output_folder)
