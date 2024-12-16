@@ -41,6 +41,11 @@ def generar_versiones(output_folder, base_name, frame):
         "filtro_bn": lambda img: aplicar_filtros_basicos(img, "blanco_negro"),
         "filtro_rgb": lambda img: aplicar_filtros_basicos(img, "rgb"),
         "filtro_grises": lambda img: aplicar_filtros_basicos(img, "escala_grises"),
+        "brillo_alto": lambda img: ajustar_brillo_contraste(img, alpha=2.0, beta=50),
+        "brillo_medio": lambda img: ajustar_brillo_contraste(img, alpha=1.5, beta=25),
+        "brillo_bajo": lambda img: ajustar_brillo_contraste(img, alpha=0.8, beta=-30),
+        "contraste_alto": lambda img: ajustar_brillo_contraste(img, alpha=2.5, beta=0),
+        "contraste_bajo": lambda img: ajustar_brillo_contraste(img, alpha=0.5, beta=0)
     }
 
     for nombre, transformacion in transformaciones.items():
@@ -71,7 +76,6 @@ def generar_dataset_imagenes(input_folder, output_folder, resolution=(28, 21)):
 
     print(f"Dataset generado en {output_folder}")
 
-# Configuración de carpetas
 input_folder = "C:/Users/ShiEu/Documents/9 Semestre/imagenes"
 output_folder = "C:/Users/ShiEu/Documents/dataset_coches"
 
