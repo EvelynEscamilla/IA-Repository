@@ -31,6 +31,58 @@ def aplicar_filtros_basicos(frame, filtro):
     else:
         return frame
 
+def rotar_y_redimensionar(frame, angulo_max=30, tamaño=(128, 128)):
+    # Generar un ángulo de rotación aleatorio entre -angulo_max y angulo_max
+    angulo = np.random.uniform(-angulo_max, angulo_max)
+    
+    h, w = frame.shape[:2]
+    centro = (w // 2, h // 2)
+    
+    # Obtener la matriz de rotación
+    matriz_rotacion = cv2.getRotationMatrix2D(centro, angulo, 1)
+    
+    # Rotar la imagen
+    imagen_rotada = cv2.warpAffine(frame, matriz_rotacion, (w, h), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT, borderValue=(255, 255, 255))
+    
+    # Redimensionar la imagen a 128x128
+    imagen_redimensionada = cv2.resize(imagen_rotada, tamaño)
+    
+    return imagen_redimensionada
+
+def rotar_varias_veces(frame, angulos=[15, 30, 45, 60, 90], tamaño=(128, 128)):
+    rotaciones = []
+    for angulo in angulos:
+        rotacion = rotar_y_redimensionar(frame, angulo_max=angulo, tamaño=tamaño)
+        rotaciones.append(rotacion)
+    return rotaciones
+
+def cambiar_tono_saturacion(frame, alpha=1.2, beta=50):
+    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+    hsv[..., 0] = hsv[..., 0] * alpha + beta  # Cambio de tono
+    hsv[..., 1] = hsv[..., 1] * alpha         # Cambio de saturación
+    return cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
+
+def agregar_ruido_sal_pimienta(frame, cantidad=0.02):
+    h, w = frame.shape[:2]
+    salida = np.copy(frame)
+    num_pixeles = int(cantidad * h * w)
+    
+    for _ in range(num_pixeles):
+        x, y = np.random.randint(0, w), np.random.randint(0, h)
+        salida[y, x] = np.random.choice([0, 255], size=3)
+    
+    return salida
+
+def desenfoque_gaussiano(frame, kernel_size=(5, 5)):
+    return cv2.GaussianBlur(frame, kernel_size, 0)
+
+def escala_color(frame, factor=1.0):
+    return cv2.convertScaleAbs(frame, alpha=factor, beta=0)
+
+def version_espejo(frame):
+    # Voltea la imagen horizontalmente (versión espejo)
+    return cv2.flip(frame, 1)
+
 def generar_versiones(output_folder, base_name, frame):
     transformaciones = {
         "rotacion_volteo": lambda img: cv2.flip(cv2.rotate(img, cv2.ROTATE_180), 1),
@@ -45,14 +97,38 @@ def generar_versiones(output_folder, base_name, frame):
         "brillo_medio": lambda img: ajustar_brillo_contraste(img, alpha=1.5, beta=25),
         "brillo_bajo": lambda img: ajustar_brillo_contraste(img, alpha=0.8, beta=-30),
         "contraste_alto": lambda img: ajustar_brillo_contraste(img, alpha=2.5, beta=0),
-        "contraste_bajo": lambda img: ajustar_brillo_contraste(img, alpha=0.5, beta=0)
+        "contraste_bajo": lambda img: ajustar_brillo_contraste(img, alpha=0.5, beta=0),
+        "rotacion_aleatoria": lambda img: rotar_y_redimensionar(img),
+        "rotaciones_adicionales": lambda img: rotar_varias_veces(img),
+        "cambiar_tono_saturacion": lambda img: cambiar_tono_saturacion(img),
+        "ruido_sal_pimienta": lambda img: agregar_ruido_sal_pimienta(img),
+        "desenfoque_gaussiano": lambda img: desenfoque_gaussiano(img),
+        "escala_color": lambda img: escala_color(img),
+        "espejo": lambda img: version_espejo(img)  # Versión espejo
     }
 
+    # Aplicar transformaciones a la imagen original
     for nombre, transformacion in transformaciones.items():
         img_transformada = transformacion(frame)
-        cv2.imwrite(f"{output_folder}/{base_name}_{nombre}.jpg", img_transformada)
+        if isinstance(img_transformada, list):  # Si es una lista de imágenes por rotaciones adicionales
+            for i, img in enumerate(img_transformada):
+                cv2.imwrite(f"{output_folder}/{base_name}_{nombre}_{i}.jpg", img)
+        else:
+            cv2.imwrite(f"{output_folder}/{base_name}_{nombre}.jpg", img_transformada)
 
-def generar_dataset_imagenes(input_folder, output_folder, resolution=(28, 21)):
+    # Generar la versión espejo
+    frame_espejo = version_espejo(frame)
+
+    # Aplicar transformaciones a la imagen espejo
+    for nombre, transformacion in transformaciones.items():
+        img_transformada = transformacion(frame_espejo)
+        if isinstance(img_transformada, list):  # Si es una lista de imágenes por rotaciones adicionales
+            for i, img in enumerate(img_transformada):
+                cv2.imwrite(f"{output_folder}/{base_name}_{nombre}_espejo_{i}.jpg", img)
+        else:
+            cv2.imwrite(f"{output_folder}/{base_name}_{nombre}_espejo.jpg", img_transformada)
+
+def generar_dataset_imagenes(input_folder, output_folder, resolution=(128, 128)):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
