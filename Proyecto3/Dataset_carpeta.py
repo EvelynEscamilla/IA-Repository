@@ -32,19 +32,15 @@ def aplicar_filtros_basicos(frame, filtro):
         return frame
 
 def rotar_y_redimensionar(frame, angulo_max=30, tamaño=(128, 128)):
-    # Generar un ángulo de rotación aleatorio entre -angulo_max y angulo_max
     angulo = np.random.uniform(-angulo_max, angulo_max)
     
     h, w = frame.shape[:2]
     centro = (w // 2, h // 2)
     
-    # Obtener la matriz de rotación
     matriz_rotacion = cv2.getRotationMatrix2D(centro, angulo, 1)
     
-    # Rotar la imagen
     imagen_rotada = cv2.warpAffine(frame, matriz_rotacion, (w, h), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT, borderValue=(255, 255, 255))
     
-    # Redimensionar la imagen a 128x128
     imagen_redimensionada = cv2.resize(imagen_rotada, tamaño)
     
     return imagen_redimensionada
@@ -58,8 +54,8 @@ def rotar_varias_veces(frame, angulos=[15, 30, 45, 60, 90], tamaño=(128, 128)):
 
 def cambiar_tono_saturacion(frame, alpha=1.2, beta=50):
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-    hsv[..., 0] = hsv[..., 0] * alpha + beta  # Cambio de tono
-    hsv[..., 1] = hsv[..., 1] * alpha         # Cambio de saturación
+    hsv[..., 0] = hsv[..., 0] * alpha + beta 
+    hsv[..., 1] = hsv[..., 1] * alpha         
     return cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
 
 def agregar_ruido_sal_pimienta(frame, cantidad=0.02):
@@ -80,7 +76,6 @@ def escala_color(frame, factor=1.0):
     return cv2.convertScaleAbs(frame, alpha=factor, beta=0)
 
 def version_espejo(frame):
-    # Voltea la imagen horizontalmente (versión espejo)
     return cv2.flip(frame, 1)
 
 def generar_versiones(output_folder, base_name, frame):
@@ -104,25 +99,22 @@ def generar_versiones(output_folder, base_name, frame):
         "ruido_sal_pimienta": lambda img: agregar_ruido_sal_pimienta(img),
         "desenfoque_gaussiano": lambda img: desenfoque_gaussiano(img),
         "escala_color": lambda img: escala_color(img),
-        "espejo": lambda img: version_espejo(img)  # Versión espejo
+        "espejo": lambda img: version_espejo(img) 
     }
 
-    # Aplicar transformaciones a la imagen original
     for nombre, transformacion in transformaciones.items():
         img_transformada = transformacion(frame)
-        if isinstance(img_transformada, list):  # Si es una lista de imágenes por rotaciones adicionales
+        if isinstance(img_transformada, list): 
             for i, img in enumerate(img_transformada):
                 cv2.imwrite(f"{output_folder}/{base_name}_{nombre}_{i}.jpg", img)
         else:
             cv2.imwrite(f"{output_folder}/{base_name}_{nombre}.jpg", img_transformada)
 
-    # Generar la versión espejo
     frame_espejo = version_espejo(frame)
 
-    # Aplicar transformaciones a la imagen espejo
     for nombre, transformacion in transformaciones.items():
         img_transformada = transformacion(frame_espejo)
-        if isinstance(img_transformada, list):  # Si es una lista de imágenes por rotaciones adicionales
+        if isinstance(img_transformada, list):  
             for i, img in enumerate(img_transformada):
                 cv2.imwrite(f"{output_folder}/{base_name}_{nombre}_espejo_{i}.jpg", img)
         else:
