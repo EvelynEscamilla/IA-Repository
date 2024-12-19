@@ -19,6 +19,6 @@ def convert_video_to_audio(video_path: str, output_path: str):
         print(f"Ocurrió un error: {e}")
 
 if __name__ == "__main__":
-    video_path = "C:/Users/ShiEu/Downloads/Estos son los puntos más importantes de la Reforma Judicial - Despierta.mp4"  # Cambia esto a la ruta de tu archivo MP4
+    video_path = "C:/Users/ShiEu/Downloads/Estos son los puntos más importantes de la Reforma Judicial - Despierta.mp4"  
     output_path = "." 
     convert_video_to_audio(video_path, output_path)
